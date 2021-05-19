@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+I am a Software Engineer at Twitter, based in London. [Tweet me](https://twitter.com/msmichellegar), or find me [on LinkedIn](https://www.linkedin.com/in/msmichellegar/).
