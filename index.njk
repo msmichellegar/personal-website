@@ -4,10 +4,21 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<img class="headshot" src="/img/headshot.jpg" />
 
-{% set postslist = collections.posts | head(-3) %}
+<h1>👋✨ Hello, I'm Michelle!</h1>
+
+<p>I'm a Software Engineer at <a href="http://twitter.com/msmichellegar">Twitter</a> in London.
+I also run <a href="http://nodegirls.com/">Node Girls</a>!
+You'll find me writing <i>JavaScript</i>, <i>Node</i>, <i>React</i>, <i>GraphQL</i>, and <i>Scala</i>,
+and delivering technical talks around the world.
+I like to code with kindness 💖
+</p>
+
+{% set maxPosts = collections.posts.length | min(4) %}
+<h2>Latest Writing</h2>
+
+{% set postslist = collections.posts | head(-4) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
