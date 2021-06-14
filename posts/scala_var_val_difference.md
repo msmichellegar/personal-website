@@ -1,7 +1,7 @@
 ---
 title: Difference between var and val in Scala
 description: Discussing the difference between var and val in Scala, and how you should use them.
-date: 2021-05-27
+date: 2021-05-25
 tags:
   - scala
 layout: layouts/post.njk
@@ -10,7 +10,7 @@ layout: layouts/post.njk
 
 ## var
 
-`var` represents a variable. It is a mutable reference to a value, meaning its value can change. Similar to `var` or `let` in JavaScript.
+`var` represents a variable. It is a mutable reference to a value, meaning its value can change. It can be reassigned with another value of the same type. Similar to `var` or `let` in JavaScript.
 
 ```scala
   var x = 123 // defines variable x, of type Int
@@ -21,7 +21,7 @@ layout: layouts/post.njk
 
 ## val
 
-`val` represents a value. It is immutable, meaning its value never changes. Similar to `const` in JavaScript.
+`val` represents a value. It is immutable, meaning its value never changes. It cannot be reassigned with a different value. Similar to `const` in JavaScript.
 
 ```scala
   val x = 123 // defines value x, of type Int
