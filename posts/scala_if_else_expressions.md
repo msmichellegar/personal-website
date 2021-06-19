@@ -1,16 +1,16 @@
 ---
-title: If...Else Expressions in Scala
-description: How to define and use if expressions in Scala.
+title: If/Else Expressions in Scala
+description: How to define and use If/Else expressions in Scala.
 date: 2021-05-30
 tags:
   - scala
 layout: layouts/post.njk
 ---
-In Scala, there are If...Else *__expressions__* rather than If...Else *__statements__*. This means that the If...Else block actually yields a value, rather than just performing actions.
+In Scala, there are `If/Else` *__expressions__* rather than `If/Else` *__statements__*. This means that the `If/Else` block actually yields a value, rather than just performing actions.
 
-The fact that Scala has if expressions aligns better with the functional style of programming. Using expressions reduces the number of variables that must be declared, making it easier to achieve immutability.
+The fact that Scala has `If/Else` expressions aligns better with functional programming style. Using expressions reduces the number of variables that must be declared, making it easier to achieve immutability.
 
-An If...Else expression looks like:
+An `If/Else` expression looks like:
 
 ```scala
   val a = 10
@@ -22,7 +22,7 @@ An If...Else expression looks like:
   // z: Int = 20
 ```
 
-It is possible to ignore the returned value, and use If...Else as a statement, however this is not best practice as it encourages side effects and mutation. Example:
+It is possible to ignore the returned value, and use `If/Else` as a statement, however this is not best practice as it encourages side effects and mutation. Example:
 
 ```scala
   val a = 10
@@ -36,6 +36,6 @@ It is possible to ignore the returned value, and use If...Else as a statement, h
   }
   
   // if expression yields 20, but this is ignored
-  // variable m is mutated inside the if...else block
+  // variable m is mutated inside the If/Else block
   // m: Int = 20
 ```
