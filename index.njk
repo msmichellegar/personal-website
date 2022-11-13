@@ -8,17 +8,15 @@ eleventyNavigation:
 
 <h1>👋✨ Hello, I'm Michelle!</h1>
 
-<p>I'm a Software Engineer at <a href="http://twitter.com/msmichellegar">Twitter</a> in London.
-I also run <a href="http://nodegirls.com/">Node Girls</a>!
-You'll find me writing <i>JavaScript</i>, <i>Node</i>, <i>React</i>, <i>GraphQL</i>, and <i>Scala</i>,
+<p>I'm a Software Engineer, currently working at <b>Twitter</b> in London.
+Formerly of <b>Condé Nast</b>, where I worked on Vogue, GQ and Bon Appétit.
+I also run <a href="http://nodegirls.com/">Node Girls</a>.</p>
+
+<p>You'll find me writing <i>JavaScript</i>, <i>Node</i>, <i>React</i> and <i>GraphQL</i>,
 and delivering technical talks 💃
 </p>
 
-{% set maxPosts = collections.posts.length | min(4) %}
-<h2>Latest Writing</h2>
+<p>When I'm not coding, I love to cook 🍝</p>
 
-{% set postslist = collections.posts | head(-4) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/blog/' | url }}">the archive</a>.</p>
+<p>{% feather "linkedin" %} <a href="https://www.linkedin.com/in/msmichellegar/" target="_blank">Add me on LinkedIn</a></p>
+<p>{% feather "twitter" %} <a href="http://twitter.com/msmichellegar" target="_blank">Follow me on Twitter</a></p>

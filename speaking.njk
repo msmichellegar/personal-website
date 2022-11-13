@@ -1,4 +1,20 @@
 ---
 layout: layouts/base.njk
+permalink: /speaking/
+eleventyNavigation:
+  key: Speaking
+  order: 3
 ---
 <h1>Speaking</h1>
+
+<p>I give technical talks! I've spoken extensively about <b><i>GraphQL</i></b>, <b><i>APIs</i></b>, <b><i>React</i></b> and <b><i>Node</i></b>.</p>
+
+<figure>
+  <img src="/img/qcon.jpg" alt="Michelle speaking on a stage in front of pink slides" /> 
+  <figcaption><i>Photo courtesy of QCon</i></figcaption>
+</figure>
+
+<h2>Past Talks</h2>
+
+{% set postslist = collections.talks %}
+{% include "postslist.njk" %}
