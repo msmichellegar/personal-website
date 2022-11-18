@@ -2,9 +2,9 @@
   "title": "Michelle Garrett",
   "url": "https://michellegarrett.dev/",
   "language": "en",
-  "description": "A blog about Computer Science, Scala, and other clever things.",
+  "description": "Michelle Garrett - Software Engineer",
   "feed": {
-    "subtitle": "A blog about Computer Science, Scala, and other clever things.",
+    "subtitle": "Michelle Garrett - Software Engineer",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
@@ -14,7 +14,7 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "Michelle Garrett",
     "email": "youremailaddress@example.com",
     "url": "https://example.com/about-me/"
   }
