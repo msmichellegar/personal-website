@@ -284,6 +284,10 @@ figure {
   margin: 0;
 }
 
+figure img {
+  width: 100%;
+}
+
 svg {
   height: 16px;
 }
